@@ -8,6 +8,7 @@ body {
 }
 
 header{
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: fixed;
@@ -15,7 +16,6 @@ header{
     border-top: 3px #ffad15 solid;
     border-bottom: 3px #009eff solid;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: white;
 }
 
 h1 {
@@ -23,17 +23,14 @@ h1 {
     text-align: center;
     padding: 10px;
     font-size: 200%;
-    /*   font-weight: 300; */
-    /*   align-self: center; */
     width: 50%;
-
 }
 
 nav {
+    font-size: x-large;
+    text-transform: uppercase;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-transform: uppercase;
-    font-size: x-large;
     width: 100%;
     align-items: center;
 }
@@ -45,7 +42,6 @@ nav {
     padding-top: 5rem;
 }
 
-
 .container > * {
     padding: 8px;
 }
@@ -55,12 +51,9 @@ h3, p, .datetime {
 }
 
 h3 {
-    /*   color: #ff8200; */
     display: inline-block;
-    /*   border-bottom: 3px #009eff solid; */
     padding-bottom: 2px;
     margin-bottom: 2px;
-
 }
 
 .datetime {
@@ -72,13 +65,10 @@ h3 {
 h2 {
     text-align: center;
     padding: 6px;
-    /*   color: #565D61; */
     font-family: 'Roboto Condensed', sans-serif;
     border-bottom: 3px #ff8200 solid;
     margin-bottom: 6px;
     background-color: #ffad15;
-    /*     text-transform: uppercase; */
-
 }
 
 li {
@@ -87,15 +77,10 @@ li {
 
 .main {
     order: 2;
-    /*   background-color: white; */
-    /*   border-left: 1px solid var(--darkblue);
-    border-right: 1px solid var(--darkblue); */
 }
 
 article {
-    /*   border-bottom: 1px solid black; */
     margin-bottom: 1em;
-    /*   padding-bottom: 1em; */
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -108,7 +93,6 @@ article {
     border: 1px solid;
     margin-bottom: 3px;
 }
-
 
 a {
     color: #1269ec;
@@ -139,14 +123,9 @@ nav a:active {
     color: #ffc620;
 }
 
-
 .left-sidebar {
     order: 1;
     text-align: center;
-    /*   background-color: #e3f4ff; */
-    /*   border-radius: 10px; */
-    /* margin-bottom: 2rem; */
-    /* margin-left: 5px; */
 }
 
 .left-sidebar a {
@@ -157,7 +136,6 @@ nav a:active {
 .right-sidebar {
     order: 3;
     text-align: center;
-    /*   background-color: #e3f4ff; */
 }
 
 footer {
